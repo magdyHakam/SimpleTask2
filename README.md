@@ -37,7 +37,7 @@ docker run --rm \
 
 ```
 
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 
 ```
 7. Generating Application Key
