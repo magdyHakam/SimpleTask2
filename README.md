@@ -66,3 +66,7 @@ for this you need to uncomment seeder call Database\Seeders\DatabaseSeed
 
         // $this->call(TasksSeeder::class);
 ```
+9. Run queue:work
+```
+./vendor/bin/sail artisan queue:work
+```
