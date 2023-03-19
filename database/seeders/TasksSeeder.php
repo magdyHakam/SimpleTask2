@@ -13,7 +13,7 @@ class TasksSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($j=0; $j < 10000; $j++) {
+        for ($j=0; $j < 1000; $j++) {
             $data = [];
             for ($i=1; $i <= 10000; $i++) {
                 $data[] = ['title'=>'Task'.($i+$j*10000).' name', 'description'=>'Task'.($i+$j*10000).' Description', 'assigned_by_id'=> rand(1,100), 'assigned_to_id'=> rand(101,10100)];
